@@ -42,7 +42,7 @@ function renderPhotos(arr) {
 }
 
 export function renderMarkup(photoEl, arr) {
-  photoEl.innerHTML = renderPhotos(arr);
+  photoEl.insertAdjacentHTML('beforeend', renderPhotos(arr));
 }
 
 export function refreshLightbox() {

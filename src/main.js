@@ -29,9 +29,9 @@ formEl.addEventListener('submit', e => {
       message: 'Please enter a search query',
       position: 'topRight',
     });
+
     return;
   }
-
   showLoader();
   getPhotos(userSearch)
     .then(data => {
