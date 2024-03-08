@@ -48,6 +48,3 @@ export function renderMarkup(photoEl, arr) {
 export function refreshLightbox() {
   lightbox.refresh();
 }
-
-//  <p>largeImageURL: '${largeImageURL}',</p>
-//           <p>tags: '${tags}',</p>
